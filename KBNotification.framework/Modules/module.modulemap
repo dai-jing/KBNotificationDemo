@@ -1,0 +1,10 @@
+framework module KBNotification {
+  umbrella header "KBNotification.h"
+
+  export *
+  module * { export * }
+}
+
+module KBNotification.Swift {
+    header "KBNotification-Swift.h"
+}
